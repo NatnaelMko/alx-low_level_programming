@@ -4,7 +4,7 @@
  * 
  * main - entry point
  *
- * Description: My third c programming file.
+ * Description: My 
  *
  * Return: 0 
  */
@@ -17,8 +17,8 @@ int main(void)
 	long l;
 	short s;
 
-	printf("The size of an int is: %lu.\n". (unsigned long)sizeof(i));
-	printf("The size of double is: %lu.\n". (unsigned long)sizeof(d));
+	printf("The size of an int is: %lu.\n", (unsigned long)sizeof(i));
+	printf("The size of double is: %lu.\n", (unsigned long)sizeof(d));
 
 	return (0);	
 }

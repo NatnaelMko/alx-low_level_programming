@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
- *Hello Hello
- */
+
+/* main.c*/
+
 int main(void)
 /*
  *Hello My Firest description

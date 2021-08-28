@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-/* main.c*/
-
-int main(void)
-/*
- *Hello My Firest description
- *My second description
+/**
+ * main - entry point
+ *
+ * Description: somting
+ *
+ * Return: 0
  */
+int main(void)
 
 {
 puts("\"Programming is like building a multilingual puzzle");

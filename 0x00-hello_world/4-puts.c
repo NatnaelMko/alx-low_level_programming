@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-This my first description text
+ *This my first description text
 */
 int main(void)
 {

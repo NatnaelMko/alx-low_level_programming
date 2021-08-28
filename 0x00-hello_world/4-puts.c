@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	fputs(stderr, "Programming is like building a multilingual puzzle");
+	fputs("Programming is like building a multilingual puzzle\n", stderr);
 	
 	return(0);
 }

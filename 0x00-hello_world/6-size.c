@@ -5,9 +5,11 @@
  * main: entry point
  *
  * Description: My third c programming file.
- * 
+ *
+ * Return: 0 
  */
 int main(void)
+
 {
 	int i;
 	double d;

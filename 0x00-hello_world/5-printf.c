@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- * main.entry
+ * main - entry point
  *
- * mysecond description
+ * Description: mysecond description
  *
  * Return: 0
  */
-
 int main(void)
 
 {

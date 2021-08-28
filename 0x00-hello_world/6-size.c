@@ -2,7 +2,7 @@
 
 /**
  * 
- * main: entry point
+ * main - entry point
  *
  * Description: My third c programming file.
  *

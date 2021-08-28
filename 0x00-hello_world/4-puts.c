@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(void)
-/*
-*Hello My Firest description
-*My second description
+/**
+* Hello My Firest description
+* My second description
 */
 
 {

@@ -12,8 +12,8 @@
 int main(void)
 {
 	int n;
-	int l;
-	l = l(n);
+	int l = l(n);
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 

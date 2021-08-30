@@ -12,12 +12,12 @@
 
 int main(void)
 {
-	int ch = 0;
+	char ch = 0;
 
 	for (ch = 0; ch < 10; ch++)
 	{
-		printf("ch\n");
+		putchar(ch);
 	}
-
+		putchar('\n');
 	return (0);
 }

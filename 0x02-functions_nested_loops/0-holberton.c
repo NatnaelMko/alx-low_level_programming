@@ -7,8 +7,9 @@
  *
  * Result: 0
  */
-int main(void)
+int void main()
 /* Here is a return value of main description */
+
 {
 	printf("_putchar\n");
 

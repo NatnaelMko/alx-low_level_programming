@@ -10,6 +10,7 @@
 
 int main(void)
 {
+/* Here we print a putchar text and end with a new line */ 
 	printf("_putchar\n");
 
 	return (0);

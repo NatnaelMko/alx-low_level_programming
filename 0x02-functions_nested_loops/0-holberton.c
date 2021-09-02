@@ -1,17 +1,22 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - entry point
+ * main - print _putchar
  *
- * Descritpion: Nesteed project
  *
- * Result: 0
+ * Return: always (0)
+ *
  */
-int _putchar(char _putchar)
-/* Here is a return value of main description */
-
+int main(void)
 {
-	return (write(1, &_putchar, 1));
+	char *c = "_putchar";
+	int i;
 
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(c[i]);
+
+	}
+	_putchar('\n');
+	return (0);
 }
-

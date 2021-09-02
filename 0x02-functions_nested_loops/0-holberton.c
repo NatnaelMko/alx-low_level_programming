@@ -7,12 +7,11 @@
  *
  * Result: 0
  */
-int void main()
+int _putchar(void)
 /* Here is a return value of main description */
 
 {
-	printf("_putchar\n");
+	return("_putchar\n");
 
-	return (0);
 }
 

@@ -7,11 +7,11 @@
  *
  * Result: 0
  */
-int _putchar(void)
+int _putchar(char _putchar)
 /* Here is a return value of main description */
 
 {
-	return("_putchar\n");
+	return(write(1, &c, 1));
 
 }
 

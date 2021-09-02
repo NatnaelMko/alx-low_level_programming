@@ -11,7 +11,7 @@ int _putchar(char _putchar)
 /* Here is a return value of main description */
 
 {
-	return(write(1, &c, 1));
+	return (write(1, &_putchar, 1));
 
 }
 

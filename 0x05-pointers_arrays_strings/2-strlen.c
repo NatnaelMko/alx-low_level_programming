@@ -12,8 +12,7 @@ int _strlen(char *s)
 {
 int len;
 
-s = "Holberton!";
-len = strlen(s);
+len = _strlen(s);
 printf("%d\n", len);
 
 return (0);

@@ -5,11 +5,13 @@
 /**
  * _strlen - check the code
  * @s: here is a string with number of characheters.
+ * 
  * Return: Always 0.
  */
 
 int _strlen(char *s)
 {
+
 int len;
 
 len = strlen(s);

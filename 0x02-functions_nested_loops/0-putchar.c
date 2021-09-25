@@ -1,10 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 
 int main()
 {
-char ch;
+	char *ch = "_putchar";
 
-putchar(ch);
+	while(*ch)
+	{
+		_putchar(*ch);
+		ch++;
+	}
+	_putchar('\n');
 
-return (0);
+	return (0);
 }

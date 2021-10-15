@@ -4,7 +4,7 @@
 /**
  * _islower - checks for lowercase character
  *
- * c: first parameter
+ * @c: first parameter
  * Description: Longer description
  *
  * Return: 0

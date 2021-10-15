@@ -16,7 +16,6 @@ return 1;
 }
 else
 {
-printf ("UpperCase");
 return 0;
 }
 }

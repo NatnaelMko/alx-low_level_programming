@@ -21,12 +21,12 @@ return 0;
 }
 }
 
-// int main(void)
-// {
-// char c = 'D';
-// _islower(c);
+/**int main(void)
+{
+char c = 'D';
+_islower(c);
 
-// return(0);
-// }
-
+return(0);
+}
+*/
 

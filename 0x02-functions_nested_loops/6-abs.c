@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_sign - this is the function
+ * _abs - this is the function
  *
  * @n: this is a variable
  *
@@ -15,7 +15,7 @@ int _abs(int n)
 {
 if (n >= 0)
 {
-return n;
+return (n);
 }
 else
 {

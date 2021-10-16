@@ -27,9 +27,3 @@ int print_sign(int n)
         return (-1);
     }
 }
-
-int main(void)
-{
-    int n = 98;
-    print_sign(n);
-}

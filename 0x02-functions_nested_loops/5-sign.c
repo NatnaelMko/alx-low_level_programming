@@ -15,15 +15,17 @@ int print_sign(int n)
 {
     if (n > 0)
     {
-        printf("+\r"); 
-        return (1);
+         
+        return (+1);
     } else if (n == 0)
     {
-        printf("0\r");
+        
         return (0);
     } else
     {
-        printf("-\r");
+        
         return (-1);
     }
 }
+
+

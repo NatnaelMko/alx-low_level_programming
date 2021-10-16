@@ -23,6 +23,7 @@ while(x < 1440)
     _putchar(':');
     _putchar(c + '0');
     _putchar(d + '0');
+    printf("\n");
 
     d++;
     if (d > 9)

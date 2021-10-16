@@ -22,9 +22,3 @@ else
 return (-1 * (n % 10));
 }
 }
-
-int main(void)
-{
-    int n = -1256;
-    printf("%d\n", print_last_digit(n));
-}

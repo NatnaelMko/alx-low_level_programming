@@ -4,8 +4,6 @@
 /**
  * jack_bauer - this is the function
  *
- * @n: this is a variable
- *
  * Description: This is the longest description
  *
  * Return: 0
@@ -16,7 +14,7 @@ void jack_bauer(void)
 int x = 0;
 int a = 0, b = 0, c = 0, d = 0;
 
-while(x < 1440)
+while (x < 1440)
 {
 _putchar(a + '0');
 _putchar(b + '0');

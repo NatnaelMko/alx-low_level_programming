@@ -15,15 +15,21 @@ int print_sign(int n)
 {
     if (n > 0)
     {
-        printf("+"); 
+        printf("+\r"); 
         return (1);
     } else if (n == 0)
     {
-        printf("0");
+        printf("0\r");
         return (0);
     } else
     {
-        printf("-");
+        printf("-\r");
         return (-1);
     }
+}
+
+int main(void)
+{
+    int n = 98;
+    print_sign(n);
 }

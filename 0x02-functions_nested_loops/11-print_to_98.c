@@ -21,6 +21,13 @@ _putchar (i + '0');
 _putchar (',');
 _putchar (' ');
 }
+else if (i == 98)
+{
+_putchar (i / 10 + '0');
+_putchar (i % 10 + '0');
+_putchar (' ');
+}
+
 else
 {
 _putchar (i / 10 + '0');

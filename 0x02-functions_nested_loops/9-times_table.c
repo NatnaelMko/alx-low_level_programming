@@ -11,9 +11,10 @@
 
 void times_table(void)
 {
-for (int i = 0; i < 10; i++)
+int i, n;
+for (i = 0; i < 10; i++)
 {
-for (int n = 0; n < 10; i++)
+for (n = 0; n < 10; i++)
 {
 _putchar(i*n);
 }

@@ -1,34 +1,25 @@
-#include "main.h"
+:wq#include "main.h"
 #include <stdio.h>
 
 /**
  * times_table - this is the function
- *
- * @x: x
- * @y: y
- * @z: z
- * @n: n
  * 
  * Description: This is the longest description
  *
  * Return: 0
  */
 
-void times_table(int n)
+void times_table(void)
 {
-int x, y, z;
+int x, y;
 
-if (n > 15 || n < 0)
-return;
-
-for (x = 0; x < n; x++)
+for (x = 0; x < 10; x++)
 {
-for (y = 0; y < n; y++)
+for (y = 0; y < 10; y++)
 {
     z = x * y;
     if(z > 99)
     {
-        _putchar(z/100 + '0');
         _putchar(z/10 % 10 + '0');
         _putchar(z % 10 +'0');
     }
@@ -50,7 +41,7 @@ for (y = 0; y < n; y++)
         _putchar(z + '0');
     }
 
-    if (y != n)
+    if (y != 9)
     {
         _putchar(',');
         _putchar(' ');

@@ -3,7 +3,7 @@
 
 /**
  * times_table - this is the function
- * 
+ *
  * Description: This is the longest description
  *
  * Return: 0
@@ -18,10 +18,10 @@ for (x = 0; x < 10; x++)
 for (y = 0; y < 10; y++)
 {
 z = x * y;
-if(z > 9)
+if (z > 9)
 {
-_putchar(z/10 % 10 + '0');
-_putchar(z % 10 +'0');
+_putchar(z / 10 % 10 + '0');
+_putchar(z % 10 + '0');
 }
 else if (y != 0)
 {

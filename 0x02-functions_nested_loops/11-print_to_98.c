@@ -36,4 +36,24 @@ _putchar (',');
 _putchar (' ');
 }
 }
+
+for (i = n; i > 98; i--)
+{
+if (i > 98 && i < 100)
+{
+_putchar (i / 10 + '0');
+_putchar (i % 10 + '0');
+_putchar (',');
+_putchar (' ');
+}
+else
+{
+_putchar (i / 100 + '0');
+_putchar (i / 10 % 10 + '0');
+_putchar (i % 10 + '0');
+_putchar (',');
+_putchar (' ');
+}
+
+}
 }

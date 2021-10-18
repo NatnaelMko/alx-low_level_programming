@@ -4,6 +4,11 @@
 /**
  * times_table - this is the function
  *
+ * @x: x
+ * @y: y
+ * @z: z
+ * @n: n
+ * 
  * Description: This is the longest description
  *
  * Return: 0

@@ -38,9 +38,9 @@ _putchar (' ');
 }
 }
 
-for (i = n; i >= 98; i--)
+for (i = n; i > 98; i--)
 {
-if (i > 98 && i < 100)
+if (i >= 98 && i < 100)
 {
 _putchar (i / 10 + '0');
 _putchar (i % 10 + '0');

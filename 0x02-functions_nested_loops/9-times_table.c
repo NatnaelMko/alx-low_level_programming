@@ -11,27 +11,20 @@
 
 void times_table(void)
 {
-int x, y;
+int x, y, z;
 
 for (x = 0; x < 10; x++)
 {
 for (y = 0; y < 10; y++)
 {
     z = x * y;
-    if(z > 99)
+    if(z > 9)
     {
         _putchar(z/10 % 10 + '0');
         _putchar(z % 10 +'0');
     }
-    else if (z > 9)
-    {
-        _putchar(' ');
-        _putchar(z/10 + '0');
-        _putchar(z % 10 + '0');
-    }
     else if (y != 0)
     {
-        _putchar(' ');
         _putchar(' ');
         _putchar(z + '0');
     }

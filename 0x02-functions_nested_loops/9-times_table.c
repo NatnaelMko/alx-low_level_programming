@@ -18,6 +18,6 @@ for (n = 0; n < 10; i++)
 {
 _putchar(i*n);
 }
-_putchar('\n')
+_putchar('\n');
 }
 }

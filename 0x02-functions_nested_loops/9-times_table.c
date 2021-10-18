@@ -17,10 +17,10 @@ if (n > 15 || n < 0)
 return;
 
 for (x = 0; x < n; x++)
-z = x * y;
 {
 for (y = 0; y < n; y++)
 {
+    z = x * y;
     if(z > 99)
     {
         _putchar(z/100 + '0');

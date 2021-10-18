@@ -15,51 +15,27 @@ void print_to_98(int n)
 int i;
 for (i = n; i <= 98; i++)
 {
-if (i < 10)
+if (i < 98)
 {
-_putchar (i + '0');
-}
-else if (i == 98)
-{
-_putchar (i / 10 + '0');
-_putchar (i % 10 + '0');
-}
+printf ("%d, ", i);
 
-else
-{
-_putchar (i / 10 + '0');
-_putchar (i % 10 + '0');
 }
-
-if (i != 98)
+else (i == 98)
 {
-_putchar (',');
-_putchar (' ');
+printf ("%d", i);
 }
 }
 
 for (i = n; i > 98; i--)
 {
-if (i >= 98 && i < 100)
+if (i > 98)
 {
-_putchar (i / 10 + '0');
-_putchar (i % 10 + '0');
+printf ("%d, ", i);
+
 }
-else if (i == 98)
+else (i == 98)
 {
-_putchar (i / 10 + '0');
-_putchar (i % 10 + '0');
-}
-else
-{
-_putchar (i / 100 + '0');
-_putchar (i / 10 % 10 + '0');
-_putchar (i % 10 + '0');
-}
-if (i != 98)
-{
-_putchar (',');
-_putchar (' ');
+printf ("%d", i);
 }
 }
 _putchar('\n');

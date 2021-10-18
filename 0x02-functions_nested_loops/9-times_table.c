@@ -2,22 +2,57 @@
 #include <stdio.h>
 
 /**
- * jack_bauer - this is the function
+ * times_table - this is the function
  *
  * Description: This is the longest description
  *
  * Return: 0
  */
 
-void times_table(void)
+void times_table(int n)
 {
-int i, n;
-for (i = 0; i < 10; i++)
+int x, y, z;
+
+if (n > 15 || n < 0)
+return;
+
+for (x = 0; x < n; x++)
+z = x * y;
 {
-for (n = 0; n < 10; i++)
+for (y = 0; y < n; y++)
 {
-_putchar(i*n);
+    if(z > 99)
+    {
+        _putchar(z/100 + '0');
+        _putchar(z/10 % 10 + '0');
+        _putchar(z % 10 +'0');
+    }
+    else if (z > 9)
+    {
+        _putchar(' ');
+        _putchar(z/10 + '0');
+        _putchar(z % 10 + '0');
+    }
+    else if (y != 0)
+    {
+        _putchar(' ');
+        _putchar(' ');
+        _putchar(z + '0');
+    }
+
+    else
+    {
+        _putchar(z + '0');
+    }
+
+    if (y != n)
+    {
+        _putchar(',');
+        _putchar(' ');
+    }
+    y++;
 }
+x++;
 _putchar('\n');
 }
 }

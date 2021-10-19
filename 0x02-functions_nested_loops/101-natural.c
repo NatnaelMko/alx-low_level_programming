@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-void printSum(void)
+int main(void)
 {
 int x;
 int total = 0;
@@ -24,4 +24,5 @@ total += x;
 }
 }
 printf("%d\n", total);
+return (0);
 }

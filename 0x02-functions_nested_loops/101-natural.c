@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * printSum - this is the function
+ * main - this is the function
  * Description: This is is.
  * Return: 0
  */

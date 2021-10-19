@@ -24,5 +24,4 @@ sum5 += x;
 }
 }
 printf ("%d\n", sum3 + sum5);
-return;
 }

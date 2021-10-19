@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int main(int n)
+int main(void)
 {
 int i;
 int t1 = 0, t2 = 1;
 int next = 0;
 
-for (i = 0; i < n; i++)
+for (i = 0; i < 50; i++)
 {
 if (i <= 1)
 {

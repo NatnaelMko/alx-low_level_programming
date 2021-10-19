@@ -10,18 +10,18 @@
 void printSum(void)
 {
 int x;
-int sum3 = 0, sum5 = 0;
+int total = 0;
 
-for (x = 0; x < 1024; x++)
+for (x = 1; x < 1024; x++)
 {
 if (x % 3 == 0)
 {
-sum3 += x;
+total += x;
 }
-if (x % 5 == 0)
+else if (x % 5 == 0)
 {
-sum5 += x;
+total += x;
 }
 }
-printf ("%d\n", sum3 + sum5);
+printf("%d\n", total);
 }

@@ -19,7 +19,7 @@ t1 = t2;
 t2 = next;
 }
 printf("%d, ", next);
-printf("\n");
 }
+printf("\n");
 return (0);
 }

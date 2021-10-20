@@ -13,7 +13,7 @@ long a = 1;
 long b = 1;
 long sum;
 
-while(b < 4000000)
+while (b < 4000000)
 {
 if (b % 2 == 0)
 {

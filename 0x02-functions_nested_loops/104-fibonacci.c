@@ -22,11 +22,11 @@ b += sum;
 
 if (i < 98)
 {
-printf("%lu, ", b);
+printf("%lu, ", sum);
 }
 if (i == 98)
 {
-printf("%lu", b);
+printf("%lu", sum);
 }
 }
 printf("\n");

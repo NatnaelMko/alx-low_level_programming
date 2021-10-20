@@ -11,6 +11,7 @@ int main(void)
 int even_sum = 0;
 long a = 1;
 long b = 1;
+long sum;
 
 while(b < 4000000)
 {
@@ -19,7 +20,7 @@ if (b % 2 == 0)
 even_sum += b;
 }
 
-long sum = a;
+sum = a;
 a = b;
 b += sum;
 }

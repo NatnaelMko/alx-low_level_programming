@@ -26,7 +26,7 @@ printf("%li, ", sum);
 }
 if (i == 98)
 {
-printf("%li", sum);
+printf("%li    ", sum);
 }
 }
 printf("\n");

@@ -24,7 +24,7 @@ if (i < 98)
 {
 printf("%lu, ", b);
 }
-if (i = 98)
+if (i == 98)
 {
 printf("%lu", b);
 }

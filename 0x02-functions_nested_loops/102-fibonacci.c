@@ -11,13 +11,13 @@ int i;
 long t1 = 0, t2 = 1;
 long next = 0;
 
-for (i = 2; i <= 52; i++)
+for (i = 2; i < 52; i++)
 {
 next = t1 + t2;
 t1 = t2;
 t2 = next;
 
-if (i < 52)
+if (i < 51)
 {
 printf("%lu, ", next);
 }

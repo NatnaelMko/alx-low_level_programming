@@ -11,14 +11,10 @@ int i;
 long t1 = 0, t2 = 1;
 long next = 0;
 
-for (i = 2; i < 51; i++)
+for (i = 2; i <= 52; i++)
 {
-if (i <= 1)
-{
-next = i;
-printf("%lu, ", next);
-}
-else if (i < 51)
+
+if (i < 52)
 {
 next = t1 + t2;
 t1 = t2;

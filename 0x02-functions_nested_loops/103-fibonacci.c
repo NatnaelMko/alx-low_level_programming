@@ -8,7 +8,7 @@
 
 int main(void)
 {
-int even_sum = 0;
+long even_sum = 0;
 long a = 1;
 long b = 1;
 long sum;

@@ -14,19 +14,19 @@ long a = 1;
 long b = 2;
 long sum = 0;
 
-for (i = 1; i <= 40; i++)
+for (i = 1; i <= 98; i++)
 {
 sum = a;
 a = b;
 b += sum;
 
-if (i < 40)
+if (i < 98)
 {
-printf("%lu, ", sum);
+printf("%ld, ", sum);
 }
-if (i == 40)
+if (i == 98)
 {
-printf("%lu", sum);
+printf("%ld", sum);
 }
 }
 printf("\n");

@@ -16,17 +16,18 @@ long sum = 0;
 
 for (i = 1; i <= 98; i++)
 {
-
 sum = a;
 a = b;
 b += sum;
 
 if (i < 98)
 {
-printf ("%lu, ", b);
+printf("%lu, ", b);
 }
 if (i = 98)
-printf ("%lu", b);
+{
+printf("%lu", b);
+}
 }
 printf("\n");
 return (0);

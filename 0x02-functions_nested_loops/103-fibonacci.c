@@ -18,12 +18,13 @@ while(b < 4000000)
 if (b % 2 == 0)
 {
 even_sum += b;
+
 }
 
 sum = a;
 a = b;
 b += sum;
 }
-printf("\n");
+printf("%lu\n", even_sum);
 return (0);
 }

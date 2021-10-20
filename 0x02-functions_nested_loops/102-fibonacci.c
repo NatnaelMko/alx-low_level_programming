@@ -24,7 +24,7 @@ else
 {
 printf("%lu", next);
 }
-printf("\n");
 }
+printf("\n");
 return (0);
 }

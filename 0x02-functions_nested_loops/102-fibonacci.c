@@ -26,4 +26,5 @@ printf("%lu", next);
 }
 printf("\n");
 }
+return (0);
 }

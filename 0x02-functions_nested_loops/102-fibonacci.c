@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - this is a fibonacci function
+ * Description: this function prints 50 fibonnacci numbers starting 1, 2
+ * Return: 0
+ */
 
 int main(void)
 {

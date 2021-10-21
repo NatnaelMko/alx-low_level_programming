@@ -14,6 +14,6 @@ int mul(int a, int b)
 long z;
 z = a * b;
 
-printf("%ld", z);
+printf("%li", z);
 return (0);
 }

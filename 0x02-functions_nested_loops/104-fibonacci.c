@@ -10,23 +10,23 @@ int main(void)
 {
 int i;
 
-long a = 1;
-long b = 2;
-long sum = 0;
+unsigned long a = 1;
+unsigned long b = 2;
+unsigned long sum = 0;
 
-for (i = 1; i <= 10; i++)
+for (i = 1; i <= 98; i++)
 {
 sum = a;
 a = b;
 b += sum;
 
-if (i < 10)
+if (i < 98)
 {
-printf("%li, ", sum);
+printf("%lu, ", sum);
 }
-if (i == 10)
+if (i == 98)
 {
-printf("%li", sum);
+printf("%lu", sum);
 }
 }
 printf("\n");

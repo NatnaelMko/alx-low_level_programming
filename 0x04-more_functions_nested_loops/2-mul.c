@@ -15,4 +15,5 @@ long int z;
 z = a * b;
 
 printf("%li", z);
+return (0);
 }

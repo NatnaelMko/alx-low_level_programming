@@ -11,9 +11,9 @@
 
 int mul(int a, int b)
 {
-int z;
+long z;
 z = a * b;
 
-printf("%d", z);
+printf("%ld", z);
 return (0);
 }

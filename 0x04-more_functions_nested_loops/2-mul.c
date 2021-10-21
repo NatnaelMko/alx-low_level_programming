@@ -11,7 +11,7 @@
 
 int mul(int a, int b)
 {
-long z;
+long int z;
 z = a * b;
 
 printf("%li", z);

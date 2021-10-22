@@ -24,8 +24,6 @@ else
 {
 _putchar(j + '0');
 }
-printf("\n");
-
 }
 printf("\n");
 }

@@ -4,7 +4,7 @@
 /**
  * print_line - function name
  * @n: number input
- * Description: a function to print line 
+ * Description: a function to print line
  * Return: 0
  */
 

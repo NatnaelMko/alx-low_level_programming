@@ -11,16 +11,17 @@ void print_line(int n)
 {
 int i = 0;
 
-while (i <= n)
+while (i < n)
 {
-if (i < 1)
+if (n < 1)
 {
-_putchar('\n');
+_putchar ('\n');
 }
 else
 {
-_putchar('_');
+_putchar ('_');
 }
 i++; 
 }
+return;
 }

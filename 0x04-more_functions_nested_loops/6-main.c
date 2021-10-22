@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-    print_line(10);
+    print_line(1);
     return (0);
 }

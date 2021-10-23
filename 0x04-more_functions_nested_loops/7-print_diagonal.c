@@ -26,6 +26,7 @@ while (j < i)
 putchar (' ');
 j++;
 }
+
 putchar('\\');
 putchar('\n');
 i++;

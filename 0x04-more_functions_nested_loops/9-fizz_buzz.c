@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main - name of the function
- * Description: The “Fizz-Buzz test” is an interview question designed to help filter out the 99.5% of programming job candidates who can’t seem to program their way out of a wet paper bag.
+ * Description: The “Fizz-Buzz test” is an interview
  * Return: 0
  */
 int main(void)

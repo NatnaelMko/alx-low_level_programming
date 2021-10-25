@@ -37,4 +37,5 @@ int temp = num / i;
 putchar(temp + '0');
 num %= i;
 }
+_putchar('\n');
 }

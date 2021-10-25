@@ -22,6 +22,11 @@ n *= -1;
 num = n;
 power = 1;
 
+if (n == 0)
+{
+_putchar(n + '0');
+}
+
 while (num >= 1)
 {
 num /= 10;
@@ -29,13 +34,12 @@ power *= 10;
 }
 
 power /= 10;
-
 num = n;
+
 for (i = power; i >= 1; i /= 10)
 {
 int temp = num / i;
 putchar(temp + '0');
 num %= i;
 }
-_putchar('\n');
 }

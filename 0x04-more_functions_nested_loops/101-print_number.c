@@ -3,46 +3,38 @@
 
 /**
  * print_numbers - print an integer
- * Description: a function to print an integer using putchar
+ * Description: a function to print an integer using _putchar
  * Return: 0
  */
 
 void print_number(int n)
 {
-long num;
+int i;
+int power;
+int num;
 
-if (n >= 0 && n < 10)
+if (n < 0)
 {
-_putchar(n % 10 + '0');
-}
-
-else if (n > 9 && n < 100)
-{
-_putchar(n / 10 + '0');
-_putchar(n % 10 + '0');
-}
-
-else if (n > 99 && n < 1000)
-{
-_putchar(n / 100 + '0');
-_putchar(n / 10 % 10 + '0');
-_putchar(n % 10 + '0');
-}
-
-else if (n > 999 && n < 10000)
-{
-_putchar(n / 1000 + '0');
-_putchar(n / 100 % 10 + '0');
-_putchar(n / 10 % 10 + '0');
-_putchar(n % 10 + '0');
+_putchar('-');
+n *= -1;
 }
 
 num = n;
+power = 1;
 
-if (num < 0)
+while (num >= 1)
 {
-num *= -1;
-_putchar('-');
+num /= 10;
+power *= 10; 
+}
 
+power /= 10;
+
+num = n;
+for (i = power; i >= 1; i /= 10)
+{
+int temp = num / i;
+putchar(temp + '0');
+num %= i;
 }
 }

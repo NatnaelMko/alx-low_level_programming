@@ -16,8 +16,8 @@ num = n;
 
 if (num < 0)
 {
-_putchar('-');
 num *= -1;
+_putchar('-');
 }
 
 power = 1;

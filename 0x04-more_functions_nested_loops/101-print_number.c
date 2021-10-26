@@ -12,14 +12,14 @@ void print_number(int n)
 int i;
 int power;
 int num;
+num = n;
 
-if (n < 0)
+if (num < 0)
 {
 _putchar('-');
-n *= -1;
+num *= -1;
 }
 
-num = n;
 power = 1;
 
 if (n == 0)
@@ -28,7 +28,6 @@ _putchar(n + '0');
 power = 0;
 }
 
-
 while (num >= 10)
 {
 power *= 10; 
@@ -36,6 +35,7 @@ num /= 10;
 }
 
 num = n;
+num = num < 0? -1 * num : num;
 
 for (i = power; i >= 1; i /= 10)
 {

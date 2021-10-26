@@ -27,13 +27,12 @@ _putchar(n + '0');
 num = n;
 power = 1;
 
-while (num >= 1)
+while (num >= 10)
 {
-num /= 10;
 power *= 10; 
+num /= 10;
 }
 
-power /= 10;
 num = n;
 
 for (i = power; i >= 1; i /= 10)

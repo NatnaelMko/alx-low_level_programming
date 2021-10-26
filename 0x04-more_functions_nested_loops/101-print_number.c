@@ -19,13 +19,15 @@ _putchar('-');
 n *= -1;
 }
 
+num = n;
+power = 1;
+
 if (n == 0)
 {
 _putchar(n + '0');
+power = 0;
 }
 
-num = n;
-power = 1;
 
 while (num >= 10)
 {

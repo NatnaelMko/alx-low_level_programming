@@ -3,6 +3,7 @@
 
 /**
  * print_number - print an integer
+ * @n: this is a parameter
  * Description: a function to print an integer using _putchar
  * Return: 0
  */

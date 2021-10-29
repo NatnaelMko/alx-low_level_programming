@@ -21,11 +21,6 @@ num *= -1;
 _putchar('-');
 }
 
-if (n == 0)
-{
-_putchar(n + '0');
-}
-
 power = 1;
 
 while (num >= 10)

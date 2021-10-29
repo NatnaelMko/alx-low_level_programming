@@ -9,7 +9,7 @@ int main(void)
 {
     print_number(500);
     _putchar('\n');
-    print_number(-1);
+    print_number(-9);
     _putchar('\n');
     print_number(1024);
     _putchar('\n');

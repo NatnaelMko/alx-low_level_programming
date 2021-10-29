@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_numbers - print an integer
+ * print_number - print an integer
  * Description: a function to print an integer using _putchar
  * Return: 0
  */
@@ -30,7 +30,7 @@ num /= 10;
 }
 
 num = n;
-num = num < 0? num * -1 : num;
+num = num < 0 ? num * -1 : num;
 
 for (i = power; i >= 1; i /= 10)
 {

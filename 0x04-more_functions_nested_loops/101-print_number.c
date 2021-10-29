@@ -34,8 +34,15 @@ num = num < 0? num * -1 : num;
 
 for (i = power; i >= 1; i /= 10)
 {
-int temp = num /= i;
+int temp;
+
+temp = num / i;
 _putchar(temp + '0');
 num %= i;
+
+if (num % i == 0)
+{
+temp = 0;
+}
 }
 }

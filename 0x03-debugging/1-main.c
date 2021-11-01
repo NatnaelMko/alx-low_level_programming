@@ -2,13 +2,15 @@
 
 /**
  * main - causes an infinite loop
- * Description: this main function to print 2 lines
+ * @'\\o/\\n: last members
+ * Descritpion: this main function to comment out infinite loop causing code
+ * 
  * Return: 0
  */
 int main(void)
 {
 printf("Infinite loop incoming :(\n");
-/*Print first*/
+
 /**
  * int i;
  * i = 0;
@@ -19,6 +21,6 @@ printf("Infinite loop incoming :(\n");
  */
 
 printf("Infinite loop avoided! \\o/\n");
-/*print Last*/
+
 return (0);
 }

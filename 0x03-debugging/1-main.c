@@ -4,7 +4,6 @@
  * main - causes an infinite loop
  * @'\\o/\\n: last members
  * Descritpion: this main function to comment out infinite loop causing code
- * 
  * Return: 0
  */
 int main(void)
@@ -21,6 +20,5 @@ printf("Infinite loop incoming :(\n");
  */
 
 printf("Infinite loop avoided! \\o/\n");
-
 return (0);
 }

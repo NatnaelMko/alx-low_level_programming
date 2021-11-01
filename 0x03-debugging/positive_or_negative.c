@@ -11,17 +11,17 @@
  * Return: 0
  */
 
-void positive_or_negative(int n)
+void positive_or_negative(int i)
 {
 
 srand(time(0));
-n = rand() - RAND_MAX / 2;
+i = rand() - RAND_MAX / 2;
 
-if (n > 0)
+if (i > 0)
 {
 printf("98 is positive\n");
 }
-else if ((n < 0))
+else if ((i < 0))
 {
 printf("-98 is negative\n");
 } else

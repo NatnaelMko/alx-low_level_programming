@@ -11,6 +11,7 @@ int main(void)
 printf("Infinite loop incoming :(\n");
 
 /**
+ * Description: A comment out code
  * int i;
  * i = 0;
  * while (i < 10)
@@ -18,7 +19,6 @@ printf("Infinite loop incoming :(\n");
  * putchar(i);
  * }
  */
-
 printf("Infinite loop avoided! \\o/\n");
 return (0);
 }

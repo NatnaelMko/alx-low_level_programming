@@ -19,8 +19,8 @@ if (month >= 1 && day <= 31)
 day--;
 }
 
-printf("Day of the year: %d\n", day);
-printf("Remaining days: %d\n", 366 - day);
+printf("Day of the year: %d\n", day + 1);
+printf("Remaining days: %d\n", 366 - day - 1);
 }
 else
 {
@@ -28,10 +28,7 @@ if ((month > 12 && month < 1) || (day > 31 && day < 1))
 {
 printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
 }
-if (month == 2 && day > 28)
-{
-printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
-}
+
 else
 {
 printf("Day of the year: %d\n", day);

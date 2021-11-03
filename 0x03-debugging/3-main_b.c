@@ -13,9 +13,9 @@ int month;
 int day;
 int year;
 
-month = 02;
-day = 29;
-year = 2001;
+month = 2;
+day = 12;
+year = 2019;
 
 printf("Date: %02d/%02d/%04d\n", month, day, year);
 

@@ -26,7 +26,7 @@ largest = b;
 }
 if (b == a && a == c)
 {
-largest = a
+largest = a;
 }
 return (largest);
 }

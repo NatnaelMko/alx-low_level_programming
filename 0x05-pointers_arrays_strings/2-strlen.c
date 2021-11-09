@@ -11,11 +11,7 @@
 
 int _strlen(char *s)
 {
+int length = sizeof(s);
 
-int len;
-
-len = strlen(s);
-printf("%d\n", len);
-
-return (0);
+return (length * 4);
 }

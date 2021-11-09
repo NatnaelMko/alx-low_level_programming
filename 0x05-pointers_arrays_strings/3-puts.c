@@ -14,7 +14,7 @@ int c = 0;
 
 while (str[c] != '\0')
 {
-printf ("%c", str[c]);
+printf ("%c\n", str[c]);
 c++;
 }
 }

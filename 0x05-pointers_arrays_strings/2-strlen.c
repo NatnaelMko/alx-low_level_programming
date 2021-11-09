@@ -5,7 +5,7 @@
 /**
  * _strlen - check the code
  * @s: here is a string with number of characheters.
- * 
+ *
  * Return: Always 0.
  */
 

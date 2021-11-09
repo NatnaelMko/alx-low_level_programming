@@ -14,7 +14,8 @@ long c = 0;
 
 while (str[c] != '\0')
 {
-printf("%c", str[c]);
+int h = str[c];
+_putchar(h);
 c++;
 }
 printf("\n");

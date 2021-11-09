@@ -3,18 +3,18 @@
 
 /**
  * _puts - prints a string
- * @str
+ * @str: an array
  * Description: a function to print a string
  * Return: 0
  */
 
 void _puts(char *str)
 {
-int c = 0;
+long c = 0;
 
 while (str[c] != '\0')
 {
-printf ("%c\n", str[c]);
+printf("%c\n", str[c]);
 c++;
 }
 }

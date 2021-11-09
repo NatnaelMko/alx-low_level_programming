@@ -18,7 +18,7 @@ for (c = 0; s[c] != '\0'; c++)
 ;
 }
 
-for (j = c; j > 0; j--)
+for (j = c - 1; j >= 0; j--)
 {
 printf("%c", s[j]);
 }

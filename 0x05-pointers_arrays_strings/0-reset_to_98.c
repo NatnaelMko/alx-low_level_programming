@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - change the value of pointers.
- * @n: Helloo 1st parameter 
+ * reset_to_98 - change the value of pointers
+ * @n: Helloo 1st parameter
  * Descritpion: Hello there
  */
 

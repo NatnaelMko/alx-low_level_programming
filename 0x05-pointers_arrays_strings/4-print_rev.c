@@ -10,15 +10,15 @@
 
 void print_rev(char *s)
 {
-int c;
-int j;
+long c;
+long j;
 
 for (c = 0; s[c] != '\0'; c++)
 {
 ;
 }
 
-for (j = c; j >= 0; j--)
+for (j = c; j > 0; j--)
 {
 printf("%c", s[j]);
 }

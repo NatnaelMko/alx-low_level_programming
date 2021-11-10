@@ -17,7 +17,15 @@ for (count = 0; str[count] != '\0'; count++)
 {
 ;
 }
-n = (count) / 2;
+
+if (count % 2 != 0)
+{
+n = (count - 1) / 2;
+}
+else
+{
+n = count / 2;
+}
 
 for (i = n; i < count; i++)
 {

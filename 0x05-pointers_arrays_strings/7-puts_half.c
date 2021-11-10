@@ -18,9 +18,9 @@ for (count = 0; str[count] != '\0'; count++)
 ;
 }
 
-if (count % 2 != 0)
+if (count + 1 % 2 != 0)
 {
-n = (count - 1) / 2;
+n = (count + 1) / 2;
 }
 else
 {

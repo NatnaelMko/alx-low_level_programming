@@ -18,4 +18,5 @@ if (count % 2 == 0)
 printf("%c", str[count]);
 }
 }
+printf("\n");
 }

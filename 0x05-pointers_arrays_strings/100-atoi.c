@@ -15,7 +15,7 @@ int n;
 
 for (count = 0; s[count] != '\0'; count++)
 {
-if (s[count] >= 0 && s[count] < 10)
+if (s[count] >= 48 && s[count] < 59)
 {
 n = s[count];
 _putchar(n + '0');

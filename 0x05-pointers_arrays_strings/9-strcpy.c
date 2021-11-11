@@ -17,6 +17,5 @@ for (count = 0; src[count] != '\0'; count++)
 dest[count] = src[count];
 }
 dest[count] = src[count];
-printf("%s\n", dest);
 return (dest);
 }

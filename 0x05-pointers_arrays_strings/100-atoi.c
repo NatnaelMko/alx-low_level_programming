@@ -18,8 +18,8 @@ for (count = 0; s[count] != '\0'; count++)
 if (s[count] >= 0 && s[count] < 10)
 {
 n = s[count];
-}
 printf("%d", n);
+}
 }
 
 return (n);

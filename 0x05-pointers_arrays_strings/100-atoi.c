@@ -11,16 +11,28 @@
 int _atoi(char *s)
 {
 int count;
-int n;
+int n = 0;
+int is_positive = 1;
 
 for (count = 0; s[count] != '\0'; count++)
 {
-if (s[count] >= 48 && s[count] < 59)
+   
+if (s[count] > 47 && s[count] < 58)
 {
-n = s[count];
-_putchar(n + '0');
+n = (n * 10) + (s[count] - '0');
+
+if (n > 0 && n < 10 && s[count - 1] == 45) 
+{
+is_positive = 0;
+}
+
 }
 }
 
-return (0);
+if (!is_positive) 
+{
+n *= -1;
+}
+
+return (n);
 }

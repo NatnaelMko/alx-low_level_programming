@@ -36,7 +36,6 @@ continue;
 }
 else
 {
-printf("hello\n");
 break;
 }
 

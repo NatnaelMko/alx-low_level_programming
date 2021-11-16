@@ -5,6 +5,7 @@
  * _strncat - print a string function
  * @dest: destination parameter
  * @src: source parameter
+ * @n: number of elemets of a string to print
  * Description: small description
  * Return: 0
  */

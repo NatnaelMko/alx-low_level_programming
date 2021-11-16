@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strcat - print a string function
+ * _strncat - print a string function
  * @dest: destination parameter
  * @src: source parameter
  * Description: small description

@@ -6,7 +6,7 @@
  * @s1: first string
  * @s2: second string
  * Description: small description
- * Return: 0 
+ * Return: 0
  */
 
 int _strcmp(char *s1, char *s2)

@@ -2,24 +2,24 @@
 #include "main.h"
 
 /**
- * reverse_array - reverse the code
+ * rev_array - reverse the code
  * @a: an array of integers
  * @n: the number of elements to swap
  * Description: Small description
  * Return: nothing.
  */
 
-void reverse_array(int *a, int n)
+void rev_array(int *a, int n)
 {
 int i;
+int j;
+int temp;
 
-for (i = n - 1; i >= 0; i--)
+for (i = 0, j = n; (i = n / 2); j++, i++)
 {
-if (i < n - 1)
-{
-printf(", ");
+temp = a[i];
+a[i] = a[j];
+a[j] =
+ temp;
 }
-printf("%d", a[i]);
-}
-
 }

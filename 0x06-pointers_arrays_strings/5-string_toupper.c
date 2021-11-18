@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * string_toupper - check the code
+ * @s: string parameter
+ * Description: Small
+ * Return: Always 0.
+ */
+
 char *string_toupper(char *s)
 {
 int i;

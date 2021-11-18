@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * rev_array - reverse the code
+ * reverse_array - reverse the code
  * @a: an array of integers
  * @n: the number of elements to swap
  * Description: Small description

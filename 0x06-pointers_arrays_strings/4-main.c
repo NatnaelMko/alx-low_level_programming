@@ -37,6 +37,6 @@ int main(void)
 		23456789, 6235456, 41235416, 374578, 10435434, 89734567
 	};
     print_array(a, sizeof(a) / sizeof(int));
-    rev_array(a, sizeof(a) / sizeof(int));
+    reverse_array(a, sizeof(a) / sizeof(int));
     return (0);
 }

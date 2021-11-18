@@ -15,11 +15,10 @@ int i;
 int j;
 int temp;
 
-for (i = 0, j = n; (i = n / 2); j++, i++)
+for (i = 0, j = n; (i < n / 2); i++, j--)
 {
 temp = a[i];
 a[i] = a[j];
-a[j] =
- temp;
+a[j] = temp;
 }
 }

@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * rot13 - a function to encode 13th character
+ * @s: string as a parameter
+ * Description: small
+ * Return: 0
+ */
 char *rot13(char *s)
 {
 int i;
@@ -13,8 +19,10 @@ int x[] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N',
 
 for (i = 0; s[i] != '\0'; i++)
 {
+
 for (j = 0; j <= 78; j++)
 {
+
 if (s[i] == x[j])
 {
 s[i] = x[j + 13];

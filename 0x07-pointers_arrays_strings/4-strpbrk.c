@@ -13,7 +13,7 @@ char *_strpbrk(char *s, char *accept)
 {
 int j;
 
-while(*s != '\0')
+while (*s != '\0')
 {
 for (j = 0; accept[j] != '\0'; j++)
 {
@@ -21,7 +21,7 @@ for (j = 0; accept[j] != '\0'; j++)
 if (*s == accept[j])
 {
 
-return(s);
+return (s);
 }
 
 else if (accept[j + 1] == '\0')
@@ -33,5 +33,5 @@ break;
 s++;
 }
 
-return(NULL);
+return (NULL);
 }

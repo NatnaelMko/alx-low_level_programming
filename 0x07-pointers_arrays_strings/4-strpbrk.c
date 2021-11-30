@@ -22,7 +22,6 @@ for (j = 0; accept[j] != '\0'; j++)
 if (((s[i] >= 65 && s[i] <= 90) || (s[i] >= 97 && s[i] <= 122)) && s[i] == accept[j])
 {
 s++;
-break;
 }
 
 else if (((s[i] >= 65 && s[i] <= 90) || (s[i] >= 97 && s[i] <= 122)) && s[i] != accept[j])
@@ -33,7 +32,6 @@ break;
 else if (!((s[i] >= 65 && s[i] <= 90) || (s[i] >= 97 && s[i] <= 122)))
 {
 s++;
-break;
 }
 
 }

@@ -11,30 +11,26 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-int i;
 int j;
 
-for (i = 0; s[i] != '\0'; i++)
+while(*s != '\0')
 {
 for (j = 0; accept[j] != '\0'; j++)
 {
 
-if (((s[i] >= 65 && s[i] <= 90) || (s[i] >= 97 && s[i] <= 122)) && s[i] == accept[j])
+if (*s == accept[j])
 {
-s++;
+
+return(s);
 }
 
-else if (((s[i] >= 65 && s[i] <= 90) || (s[i] >= 97 && s[i] <= 122)) && s[i] != accept[j])
+else if (accept[j + 1] == '\0')
 {
 break;
 }
 
-else if (!((s[i] >= 65 && s[i] <= 90) || (s[i] >= 97 && s[i] <= 122)))
-{
+}
 s++;
-}
-
-}
 }
 
 return(s);
